@@ -131,6 +131,7 @@ CREATE TABLE IF NOT EXISTS transactions (
     purpose VARCHAR(255),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+```
 
 ## Verwendung
 
@@ -156,4 +157,3 @@ Nach erfolgreicher Installation und dem Starten der Frontend- und Backend-Server
 - **Backend:** [FastAPI](https://fastapi.tiangolo.com/)
 - **Datenbank:** [MySQL](https://www.mysql.com/)
 - **Weitere Tools:** Node.js, npm
-```
