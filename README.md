@@ -61,7 +61,7 @@ Nach Abschluss dieser Module haben die Nutzer ein Bewusstsein für sichere Softw
    ```
 4. **Entwicklungsserver starten:**
    ```bash
-   npm start dev
+   npm run dev
    ```
 
 ### Backend einrichten
